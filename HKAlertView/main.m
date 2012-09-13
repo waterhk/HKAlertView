@@ -2,8 +2,8 @@
 //  main.m
 //  HKAlertView
 //
-//  Created by zhonghaoqing on 12-9-13.
-//  Copyright (c) 2012年 waterhk. All rights reserved.
+//  Created by waterhk on 12-9-13.
+//  Copyright (c) 2012年 http://www.m439.com/blog/ All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

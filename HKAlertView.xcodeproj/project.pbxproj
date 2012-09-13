@@ -13,6 +13,9 @@
 		7F9C340B1601B8EC0065C06A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F9C34091601B8EC0065C06A /* InfoPlist.strings */; };
 		7F9C340D1601B8EC0065C06A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9C340C1601B8EC0065C06A /* main.m */; };
 		7F9C34111601B8EC0065C06A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9C34101601B8EC0065C06A /* AppDelegate.m */; };
+		7F9C341A1601B9C00065C06A /* HKAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9C34191601B9C00065C06A /* HKAlertView.m */; };
+		7F9C34201601C2BD0065C06A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9C341F1601C2BD0065C06A /* QuartzCore.framework */; };
+		7F9C34241601C8460065C06A /* 940.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F9C34231601C8460065C06A /* 940.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		7F9C340E1601B8EC0065C06A /* HKAlertView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HKAlertView-Prefix.pch"; sourceTree = "<group>"; };
 		7F9C340F1601B8EC0065C06A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7F9C34101601B8EC0065C06A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F9C34181601B9C00065C06A /* HKAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKAlertView.h; sourceTree = "<group>"; };
+		7F9C34191601B9C00065C06A /* HKAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKAlertView.m; sourceTree = "<group>"; };
+		7F9C341F1601C2BD0065C06A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7F9C34231601C8460065C06A /* 940.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 940.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F9C34201601C2BD0065C06A /* QuartzCore.framework in Frameworks */,
 				7F9C34011601B8EC0065C06A /* UIKit.framework in Frameworks */,
 				7F9C34031601B8EC0065C06A /* Foundation.framework in Frameworks */,
 				7F9C34051601B8EC0065C06A /* CoreGraphics.framework in Frameworks */,
@@ -62,6 +70,7 @@
 		7F9C33FF1601B8EC0065C06A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7F9C341F1601C2BD0065C06A /* QuartzCore.framework */,
 				7F9C34001601B8EC0065C06A /* UIKit.framework */,
 				7F9C34021601B8EC0065C06A /* Foundation.framework */,
 				7F9C34041601B8EC0065C06A /* CoreGraphics.framework */,
@@ -72,6 +81,8 @@
 		7F9C34061601B8EC0065C06A /* HKAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				7F9C34231601C8460065C06A /* 940.jpeg */,
+				7F9C34171601B98A0065C06A /* Classes */,
 				7F9C340F1601B8EC0065C06A /* AppDelegate.h */,
 				7F9C34101601B8EC0065C06A /* AppDelegate.m */,
 				7F9C34071601B8EC0065C06A /* Supporting Files */,
@@ -88,6 +99,15 @@
 				7F9C340E1601B8EC0065C06A /* HKAlertView-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F9C34171601B98A0065C06A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7F9C34181601B9C00065C06A /* HKAlertView.h */,
+				7F9C34191601B9C00065C06A /* HKAlertView.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F9C340B1601B8EC0065C06A /* InfoPlist.strings in Resources */,
+				7F9C34241601C8460065C06A /* 940.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +175,7 @@
 			files = (
 				7F9C340D1601B8EC0065C06A /* main.m in Sources */,
 				7F9C34111601B8EC0065C06A /* AppDelegate.m in Sources */,
+				7F9C341A1601B9C00065C06A /* HKAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
