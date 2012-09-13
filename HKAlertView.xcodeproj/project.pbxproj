@@ -16,6 +16,7 @@
 		7F9C341A1601B9C00065C06A /* HKAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9C34191601B9C00065C06A /* HKAlertView.m */; };
 		7F9C34201601C2BD0065C06A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9C341F1601C2BD0065C06A /* QuartzCore.framework */; };
 		7F9C34241601C8460065C06A /* 940.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F9C34231601C8460065C06A /* 940.jpeg */; };
+		7F9C342A1601D06F0065C06A /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F9C34291601D06F0065C06A /* screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		7F9C34191601B9C00065C06A /* HKAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKAlertView.m; sourceTree = "<group>"; };
 		7F9C341F1601C2BD0065C06A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7F9C34231601C8460065C06A /* 940.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 940.jpeg; sourceTree = "<group>"; };
+		7F9C34291601D06F0065C06A /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		7F9C34061601B8EC0065C06A /* HKAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				7F9C34291601D06F0065C06A /* screenshot.png */,
 				7F9C34231601C8460065C06A /* 940.jpeg */,
 				7F9C34171601B98A0065C06A /* Classes */,
 				7F9C340F1601B8EC0065C06A /* AppDelegate.h */,
@@ -163,6 +166,7 @@
 			files = (
 				7F9C340B1601B8EC0065C06A /* InfoPlist.strings in Resources */,
 				7F9C34241601C8460065C06A /* 940.jpeg in Resources */,
+				7F9C342A1601D06F0065C06A /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +285,7 @@
 				7F9C34161601B8EC0065C06A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
