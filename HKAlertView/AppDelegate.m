@@ -17,6 +17,8 @@
     [super dealloc];
 }
 
+#pragma mark -HKDelegate
+
 -(void)HKAlertView:(HKAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
     NSString *str = @"";
     for (UIView *subview in alertView.subviews) {
@@ -65,7 +67,6 @@
     NSArray *subviews = [[NSArray alloc] initWithObjects:passwordField, view, nil];
     
     HKAlertView *alert = [[HKAlertView alloc] initWithTitle:@"your title" message:@"you message here" subviews:subviews delegate:self cancelButtonTitle:@"cancle" otherButtonTitles:@"other"];
-    alert.TFDelegate = self;
     [alert show];
     [alert release];
 }

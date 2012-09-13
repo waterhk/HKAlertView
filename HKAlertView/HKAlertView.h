@@ -17,7 +17,7 @@
 @interface HKAlertView : UIAlertView <UIAlertViewDelegate>{
     NSArray *_subviews;
 }
-@property (nonatomic, assign) id<HKAlertViewDelegate> TFDelegate;
+@property (nonatomic, assign) id<HKAlertViewDelegate> HKDelegate;
 
 -(id)initWithTitle:(NSString *)title message:(NSString *)message subviews:(NSArray *)subviews delegate:(id)delegate cancelButtonTitle:(NSString *)cancelButtonTitle otherButtonTitles:(NSString *)otherButtonTitles, ...;
 

@@ -15,7 +15,7 @@
 #define TFAlertWidth   240
 #define TFAlertGap     10
 
-@synthesize TFDelegate;
+@synthesize HKDelegate;
 
 #pragma mark -overload
 
@@ -25,7 +25,7 @@
         // Initialization code
         _subviews = [subviews retain];
     }
-    self.TFDelegate = delegate;
+    self.HKDelegate = delegate;
     NSLog(@"init subviews : %d", _subviews.count);
     return self;
 }
@@ -74,8 +74,8 @@
 }
 
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
-    if ([self.TFDelegate respondsToSelector:@selector(HKAlertView:clickedButtonAtIndex:)]) {
-        [self.TFDelegate HKAlertView:self clickedButtonAtIndex:buttonIndex];
+    if ([self.HKDelegate respondsToSelector:@selector(HKAlertView:clickedButtonAtIndex:)]) {
+        [self.HKDelegate HKAlertView:self clickedButtonAtIndex:buttonIndex];
     }
 }
 
